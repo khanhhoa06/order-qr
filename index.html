@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Quán Ăn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Tên Quán Ăn Của Bạn</h1>
+      <p>Gọi món qua Zalo - Nhận ngay!</p>
+    </header>
+
+    <main id="menu"></main>
+
+    <section class="order-form">
+      <h2>Thông tin giao hàng</h2>
+      <input type="text" id="name" placeholder="Họ và tên" required>
+      <input type="tel" id="phone" placeholder="Số điện thoại" required>
+      <input type="text" id="address" placeholder="Địa chỉ giao hàng" required>
+      <button id="orderBtn">Gửi đơn qua Zalo</button>
+    </section>
+  </main>
+  <script src="menu.json"></script>
+  <script src="script.js"></script>
+</body>
+</html>

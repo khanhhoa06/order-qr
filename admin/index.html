@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quản trị Menu Quán Ăn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="admin-container">
+    <header>
+      <h1>Bảng Điều Khiển Quản Trị Menu</h1>
+      <button id="logoutBtn" class="btn-logout">Đăng xuất</button>
+    </header>
+
+    <main>
+      <section class="menu-manager">
+        <h2>Danh sách món ăn</h2>
+        <button id="addCategoryBtn" class="btn-add">+ Thêm danh mục</button>
+        <div id="menuContainer"></div>
+      </section>
+
+      <section class="actions">
+        <button id="saveBtn" class="btn-save">Lưu thay đổi</button>
+        <button id="resetBtn" class="btn-reset">Khôi phục původ</button>
+        <div id="statusMsg" class="status"></div>
+      </section>
+    </main>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

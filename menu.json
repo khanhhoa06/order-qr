@@ -1,0 +1,25 @@
+{
+  "categories": [
+    {
+      "name": "Khai vị",
+      "items": [
+        { "id": "salad1", "name": "Salad rau củ", "price": 45000 },
+        { "id": "soup1",  "name": "Súp gà nấm",   "price": 35000 }
+      ]
+    },
+    {
+      "name": "Món chính",
+      "items": [
+        { "id": "main1",  "name": "Cơm gà rang",  "price": 65000 },
+        { "id": "main2",  "name": "Bún thịt nướng", "price": 55000 }
+      ]
+    },
+    {
+      "name": "Đồ uống",
+      "items": [
+        { "id": "drink1", "name": "Trà sữa trân châu", "price": 40000 },
+        { "id": "drink2", "name": "Cà phê sữa đá",     "price": 35000 }
+      ]
+    }
+  ]
+}

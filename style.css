@@ -1,0 +1,24 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: #f9f9f9; }
+.container { max-width: 480px; margin: 0 auto; padding: 1rem; }
+header { text-align: center; margin-bottom: 1.5rem; }
+header h1 { color: #2c3e50; }
+header p { color: #7f8c8d; font-size: 0.9rem; }
+#menu { margin-bottom: 1.5rem; }
+.category { margin-bottom: 1rem; }
+.category h3 { background: #ecf0f1; padding: 0.5rem; border-radius: 4px; }
+.item { display: flex; justify-content: space-between; align-items: center; padding: 0.75rem; border-bottom: 1px solid #eee; }
+.item:last-child { border-bottom: none; }
+.item-name { font-weight: 500; }
+.item-price { color: #e74c3c; }
+.qty-control { display: flex; align-items: center; gap: 0.5rem; }
+.qty-control button { width: 28px; height: 28px; border: none; background: #bdc3c7; color: white; border-radius: 3px; cursor: pointer; }
+.qty-control button:hover { background: #95a5a6; }
+.qty-control span { min-width: 20px; text-align: center; }
+.order-form { background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+.order-form h2 { margin-bottom: 1rem; color: #2c3e50; }
+.order-form input { width: 100%; padding: 0.75rem; margin-bottom: 1rem; border: 1px solid #ddd; border-radius: 4px; font-size: 1rem; }
+.order-form input:focus { outline: none; border-color: #3498db; }
+#orderBtn { width: 100%; padding: 0.75rem; background: #27ae60; color: white; border: none; border-radius: 4px; font-size: 1rem; cursor: pointer; }
+#orderBtn:hover { background: #219a52; }
+@media (max-width: 480px) { .container { padding: 0.5rem; } }
